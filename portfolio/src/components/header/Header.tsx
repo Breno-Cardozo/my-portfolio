@@ -11,7 +11,7 @@ export const Header = () => {
             <HeaderWrapper>
                 <nav>
                     <a className="logo">BCF</a>
-                    <button>Contrate-me</button>
+                    <button className="btn">Contrate-me</button>
                 </nav>
             </HeaderWrapper>
         </>
