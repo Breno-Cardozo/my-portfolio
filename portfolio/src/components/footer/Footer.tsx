@@ -22,7 +22,7 @@ export const Footer = () => {
                     </Link>
                     <Link href="">
                         <span className="icons">
-                            <BiSolidArchiveIn/>
+                            <BiSolidArchiveIn />
                         </span>
                     </Link>
                 </Stack>

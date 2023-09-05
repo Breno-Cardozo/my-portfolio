@@ -3,8 +3,6 @@ import { styled, Stack } from "@mui/material";
 
 export const HomeWrapper = styled(Stack)(({ theme }) => ({
     width: '100%',
-
-
     ".links":{
         flexDirection: 'row',
         gap: theme.spacing(4)
@@ -23,6 +21,10 @@ export const HomeWrapper = styled(Stack)(({ theme }) => ({
         padding: theme.spacing(1),
         fontSize: '22px',
         display: 'flex',
+        cursor: 'pointer',
+        boxShadow: `0px 1px 3px 0px ${theme.palette.primary.dark}`,
+        textDecoration: 'none',
+
     },
 
 
@@ -56,6 +58,7 @@ export const HomeWrapper = styled(Stack)(({ theme }) => ({
         color: theme.palette.primary.light,
         fontWeight: 700,
         fontSize:26,
+        textDecoration: 'none',
 
         "&:hover": {
             color:'#9630c9',

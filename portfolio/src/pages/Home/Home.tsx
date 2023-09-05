@@ -33,25 +33,25 @@ export const Home = () => {
                                     }}>
                                         <span className="cv">
                                             <BiDownload size={28}/>
-                                            download
+                                            Currículo
                                         </span>
                                     </Button>
                                 </Link>
                                 <Stack className="icons" direction="row">
-                                    <Link className="icon">
-                                        <a>
+                                    <Link href="https://www.instagram.com/brenocardozof/" >
+                                        <span className="icon">
                                             <BiLogoInstagram/>
-                                        </a>
+                                        </span>
                                     </Link>
-                                    <Link className="icon">
-                                        <a>
+                                    <Link href="https://www.linkedin.com/in/breno-c-10432021b/">
+                                        <span className="icon">
                                             <BiLogoLinkedin/>
-                                        </a>
+                                        </span>
                                     </Link>
-                                    <Link className="icon">
-                                        <a>
+                                    <Link href="https://github.com/Breno-Cardozo">
+                                        <span className="icon">
                                             <BiLogoGithub/>
-                                        </a>
+                                        </span>
                                     </Link>
                                 </Stack>
                             </Stack> 
