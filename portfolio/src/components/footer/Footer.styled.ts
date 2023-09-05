@@ -2,6 +2,7 @@ import { styled } from "@mui/material";
 
 
 export const FooterWrapper = styled("footer")(({theme}) => ({
+    margin: theme.spacing(5,0),
     Stack:{
         alignItems:"center",
     },
@@ -17,7 +18,7 @@ export const FooterWrapper = styled("footer")(({theme}) => ({
         margin: "auto",
         height: 50,
         background: theme.palette.secondary.main,
-        boxShadow: '0px 2px 4px 0px #4200A7'
+        boxShadow: '0px 2px 4px 0px #4200A7',
     },
     ".icons":{
         border: '2px solid #4200A7',
