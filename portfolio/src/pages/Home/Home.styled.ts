@@ -4,6 +4,28 @@ import { styled, Stack } from "@mui/material";
 export const HomeWrapper = styled(Stack)(({ theme }) => ({
     width: '100%',
 
+
+    ".links":{
+        flexDirection: 'row',
+        gap: theme.spacing(4)
+    },
+
+    ".icons":{
+        gap:theme.spacing(4),
+        margin: theme.spacing(5,0),
+        flexDirection: 'row',
+    },
+
+    ".icon": {
+        border: '2px solid #4200A7',
+        borderRadius: 100,
+        color: theme.palette.secondary.dark,
+        padding: theme.spacing(1),
+        fontSize: '22px',
+        display: 'flex',
+    },
+
+
     ".tittle":{
         color: theme.palette.secondary.dark, 
         fontWeight: 700, 
