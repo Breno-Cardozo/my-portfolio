@@ -11,7 +11,7 @@ export const FooterWrapper = styled("footer")(({theme}) => ({
         width: '20%',
         border: '2px solid #4200A7',
         display: 'flex',
-        borderRadius: 20,
+        borderRadius: 100,
         alignItems: "center",
         justifyContent: "center",
         margin: "auto",
