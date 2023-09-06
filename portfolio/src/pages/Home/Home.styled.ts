@@ -54,6 +54,18 @@ export const HomeWrapper = styled(Stack)(({ theme }) => ({
         }
     },
 
+    img:{
+        maxWidth: 360,
+        width: '100%',
+        height: 'auto',
+    },
+
+    ".all":{
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+
+
     span: {
         color: theme.palette.primary.light,
         fontWeight: 700,
@@ -61,7 +73,7 @@ export const HomeWrapper = styled(Stack)(({ theme }) => ({
         textDecoration: 'none',
 
         "&:hover": {
-            color:'#9630c9',
+            color:theme.palette.secondary.light,
         }
     },
     

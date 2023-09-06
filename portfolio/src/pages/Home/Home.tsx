@@ -2,6 +2,7 @@ import { useTheme, Stack, Link, Typography, Button } from "@mui/material";
 import { Container } from "../../components/container";
 import { HomeWrapper } from "./Home.styled";
 import { BiDownload, BiLogoInstagram,BiLogoLinkedin,BiLogoGithub } from "react-icons/bi";
+import Img from "../../assets/images/me.png";
 
 
 
@@ -11,6 +12,7 @@ export const Home = () => {
     return (
         <Container>
                 <HomeWrapper>
+                    <Stack className="all">
                         <Stack className="hero__content">
                             <Typography className="tittle">
                                 Olá, meu nome é <span>Breno Cardozo!</span>
@@ -54,8 +56,10 @@ export const Home = () => {
                                         </span>
                                     </Link>
                                 </Stack>
-                            </Stack> 
+                            </Stack>
                         </Stack>
+                        <img src={Img}/>
+                    </Stack>
                 </HomeWrapper>
         </Container>        
     )

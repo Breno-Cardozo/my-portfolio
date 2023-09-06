@@ -15,9 +15,10 @@ export const FooterWrapper = styled("footer")(({theme}) => ({
         alignItems: "center",
         justifyContent: "center",
         margin: "auto",
-        height: 70,
+        height: 60,
         background: theme.palette.secondary.main,
-        backdropFilter: "25px",
+        border: '2px solid #4200A7',
+        boxShadow: `0px 2px 4px 0px ${theme.palette.primary.dark}`,
     },
 
     ".icons":{
@@ -27,5 +28,10 @@ export const FooterWrapper = styled("footer")(({theme}) => ({
         padding: theme.spacing(1),
         fontSize: 22,
         display: 'flex',
+
+        "&:hover":{
+            //color: theme.palette.secondary.light,
+            background: theme.palette.primary.dark,
+        },
     },
 }));

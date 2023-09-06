@@ -16,6 +16,7 @@ export const theme = createTheme({
         secondary : {
             main: "rgb(16, 5, 30)",
             dark: "rgb(155, 162, 209)",
+            light: "rgb(150, 48, 201)",
         },
     },
 });
