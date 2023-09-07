@@ -19,7 +19,7 @@ export const HomeWrapper = styled(Stack)(({ theme }) => ({
         borderRadius: 100,
         color: theme.palette.secondary.dark,
         padding: theme.spacing(1),
-        fontSize: '22px',
+        fontSize: 22,
         display: 'flex',
         cursor: 'pointer',
         boxShadow: `0px 1px 3px 0px ${theme.palette.primary.dark}`,
