@@ -1,4 +1,4 @@
-import { useTheme, Stack, Link } from "@mui/material";
+import { useTheme, Stack, Link, Tooltip } from "@mui/material";
 import { FooterWrapper } from "./Footer.styled";
 import {BiHome , BiSolidArchiveIn, BiCode} from "react-icons/bi";
 
@@ -10,21 +10,27 @@ export const Footer = () => {
         <>
             <FooterWrapper>
                 <Stack className="footer" direction="row" spacing={2}>
-                    <Link href="">
-                        <span className="icons">
-                            <BiHome/>
-                        </span>
-                    </Link>
-                    <Link href="">
-                        <span className="icons">
-                            <BiCode/>
-                        </span>
-                    </Link>
-                    <Link href="">
-                        <span className="icons">
-                            <BiSolidArchiveIn />
-                        </span>
-                    </Link>
+                    <Tooltip title="Home">
+                        <Link href="">
+                            <span className="icons">
+                                <BiHome/>
+                            </span>
+                        </Link>
+                    </Tooltip>
+                    <Tooltip title="Conhecimentos">
+                        <Link href="">
+                            <span className="icons">
+                                <BiCode/>
+                            </span>
+                        </Link>
+                    </Tooltip>
+                    <Tooltip title="Projetos">
+                        <Link href="">
+                            <span className="icons">
+                                <BiSolidArchiveIn />
+                            </span>
+                        </Link>
+                    </Tooltip>
                 </Stack>
             </FooterWrapper>
         </>

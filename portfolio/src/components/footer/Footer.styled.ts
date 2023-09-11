@@ -6,6 +6,8 @@ export const FooterWrapper = styled("footer")(({theme}) => ({
     Stack:{
         alignItems:"center",
     },
+
+  
     
     
     ".footer":{

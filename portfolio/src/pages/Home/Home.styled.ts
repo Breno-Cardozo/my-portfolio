@@ -58,6 +58,7 @@ export const HomeWrapper = styled(Stack)(({ theme }) => ({
         maxWidth: 360,
         width: '100%',
         height: 'auto',
+        
     },
 
     ".all":{
@@ -74,7 +75,7 @@ export const HomeWrapper = styled(Stack)(({ theme }) => ({
 
         "&:hover": {
             color:theme.palette.secondary.light,
-        }
+        },
     },
     
 }));
