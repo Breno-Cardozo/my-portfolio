@@ -5,5 +5,5 @@ export const ContainerWrapper = styled("main")(({theme}) => ({
     justifyContent: 'center',
     alignItems: 'center',
     padding: theme.spacing(3),
-    marginTop: theme.spacing(10),
+    margin: theme.spacing(8),
 }));

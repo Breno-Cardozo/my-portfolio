@@ -8,9 +8,19 @@ export const HomeWrapper = styled(Stack)(({ theme }) => ({
 	justifyContent: 'center',
 	gap: theme.spacing(8),
 
+	[theme.breakpoints.down("lg")]: {
+		flexDirection: 'column-reverse',
+	},
+
 	".links":{
 		flexDirection: 'row',
 		gap: theme.spacing(4),
+
+		[theme.breakpoints.down("lg")]: {
+			flexDirection: 'column',
+			alignItems: 'center',
+			gap: theme.spacing(3),
+		},
 
 		"& a": {
 			"& button": {

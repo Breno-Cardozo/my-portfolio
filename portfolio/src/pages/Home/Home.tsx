@@ -6,8 +6,6 @@ import Img from "../../assets/images/me.png";
 import Curriculo from "../../assets/images/Curriculo.pdf";
 
 
-
-
 export const Home = () => {
 
 	return (

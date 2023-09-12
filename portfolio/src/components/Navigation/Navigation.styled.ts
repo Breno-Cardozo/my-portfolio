@@ -6,7 +6,7 @@ export const NavigationWrapper = styled(Stack)(({theme}) => ({
     position: 'fixed',
     justifyContent: "center",
     flexDirection: 'row',
-    bottom: 75,
+    bottom: 10,
 
     ".navigation__content": {
         maxWidth: 220,
