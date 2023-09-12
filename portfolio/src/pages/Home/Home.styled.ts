@@ -58,6 +58,11 @@ export const HomeWrapper = styled(Stack)(({ theme }) => ({
 		gap: theme.spacing(3),
 		maxWidth: 437,
 		
+		[theme.breakpoints.down("lg")]:{
+			gap: theme.spacing(2),
+		},
+
+
 		h1:{
 			fontWeight: 700, 
 			fontSize:26,

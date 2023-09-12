@@ -9,6 +9,13 @@ export const HeaderWrapper = styled("header")(({theme}) => ({
         alignItems: "center",
         display: "flex",
 
+        [theme.breakpoints.down('lg')]:{
+            alignItems: "center",
+            display: "flex",
+            justifyContent: 'center',
+            gap: theme.spacing(10),
+        },
+
         a:{
             textDecoration: 'none',
         },
@@ -18,6 +25,10 @@ export const HeaderWrapper = styled("header")(({theme}) => ({
             fontSize: 45,
             fontWeight: 700,
             cursor: 'pointer',
+
+            [theme.breakpoints.down('lg')]:{
+                fontSize:50,
+            }
         },
 
         ".btn":{
@@ -29,6 +40,10 @@ export const HeaderWrapper = styled("header")(({theme}) => ({
             border: `3px solid ${theme.palette.primary.dark}`,
             textTransform: 'none',
             boxShadow: `0px 1px 3px 0px ${theme.palette.primary.dark}`,
+
+
+            [theme.breakpoints.down('lg')]:{                
+            },
 
             "&:hover": {
                 color: theme.palette.secondary.dark,
