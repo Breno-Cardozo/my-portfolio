@@ -1,11 +1,8 @@
-import { useTheme, Typography, Button } from "@mui/material";
+import { Typography, Button } from "@mui/material";
 import { HeaderWrapper } from "./Header.styled";
 import { Link } from "react-router-dom";
 
 export const Header = () => {
-    const theme = useTheme();
-
-
 
     return(
         <>
