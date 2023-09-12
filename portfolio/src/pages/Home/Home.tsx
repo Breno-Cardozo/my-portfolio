@@ -3,6 +3,8 @@ import { Container } from "../../components/container";
 import { HomeWrapper } from "./Home.styled";
 import { BiDownload, BiLogoInstagram,BiLogoLinkedin,BiLogoGithub } from "react-icons/bi";
 import Img from "../../assets/images/me.png";
+import Curriculo from "../../assets/images/Curriculo.pdf";
+
 
 
 
@@ -24,7 +26,7 @@ export const Home = () => {
                                 Tenho 18 anos, sou um estudante na área da programação que busco me aperfeiçoar dia após dia, atualmente estudo na Etec MCM, estou no último ano do curso Novotec Integrado de Informática para Internet
                             </Typography>
                            <Stack className="links">
-                                <Link>
+                                <a href={Curriculo} download="Curriculo.pdf">
                                     <Button variant="contained" sx={{
                                         border:`3px solid ${theme.palette.primary.dark}`,
                                         borderRadius: 100,
@@ -38,19 +40,19 @@ export const Home = () => {
                                             Currículo
                                         </span>
                                     </Button>
-                                </Link>
+                                </a>
                                 <Stack className="icons" direction="row">
-                                    <Link href="https://www.instagram.com/brenocardozof/" >
+                                    <Link target="_blank" href="https://www.instagram.com/brenocardozof/" >
                                         <span className="icon">
                                             <BiLogoInstagram/>
                                         </span>
                                     </Link>
-                                    <Link href="https://www.linkedin.com/in/breno-c-10432021b/">
+                                    <Link target="_blank" href="https://www.linkedin.com/in/breno-c-10432021b/">
                                         <span className="icon">
                                             <BiLogoLinkedin/>
                                         </span>
                                     </Link>
-                                    <Link href="https://github.com/Breno-Cardozo">
+                                    <Link target="_blank" href="https://github.com/Breno-Cardozo">
                                         <span className="icon">
                                             <BiLogoGithub/>
                                         </span>
