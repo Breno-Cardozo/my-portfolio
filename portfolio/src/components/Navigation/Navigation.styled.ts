@@ -1,26 +1,25 @@
-import { styled } from "@mui/material";
+import { Stack, styled } from "@mui/material";
 
 
-export const FooterWrapper = styled("footer")(({theme}) => ({
-    margin: theme.spacing(5,0),
-    Stack:{
-        alignItems:"center",
-    },
+export const NavigationWrapper = styled(Stack)(({theme}) => ({
+    width: '100%',
+    position: 'fixed',
+    justifyContent: "center",
+    flexDirection: 'row',
+    bottom: 75,
 
-  
-    
-    
-    ".footer":{
-        width: '20%',
-        display: 'flex',
+    ".navigation__content": {
+        maxWidth: 220,
+        width: '100%',
         borderRadius: 100,
         alignItems: "center",
         justifyContent: "center",
-        margin: "auto",
         height: 60,
         background: theme.palette.secondary.main,
         border: '2px solid #4200A7',
         boxShadow: `0px 2px 4px 0px ${theme.palette.primary.dark}`,
+        gap: theme.spacing(2),
+        flexDirection: 'row',
     },
 
     ".icons":{

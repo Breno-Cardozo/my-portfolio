@@ -6,7 +6,7 @@ import { ThemeProvider } from '@mui/material'
 import { BrowserRouter } from 'react-router-dom'
 import { AllRoutes } from './routes'
 import { Header } from './components/header/Header'
-import { Footer } from './components/footer/Footer'
+import { Navigation } from './components/Navigation/Navigation'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <BrowserRouter>
           <Header />
           <AllRoutes />
-          <Footer />
+          <Navigation />
         </BrowserRouter>
     </ThemeProvider>
   </React.StrictMode>,

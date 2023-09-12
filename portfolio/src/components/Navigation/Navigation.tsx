@@ -1,16 +1,15 @@
-import { useTheme, Stack, Link, Tooltip } from "@mui/material";
-import { FooterWrapper } from "./Footer.styled";
+import { Link, Stack, Tooltip } from "@mui/material";
+import { NavigationWrapper } from "./Navigation.styled";
 import {BiHome , BiSolidArchiveIn, BiCode} from "react-icons/bi";
 
 
-export const Footer = () => {
-    const theme = useTheme();
+export const Navigation = () => {
 
     return(
         <>
-            <FooterWrapper>
-                <Stack className="footer" direction="row" spacing={2}>
-                    <Tooltip title="Home">
+            <NavigationWrapper>
+                <Stack className="navigation__content">
+                    <Tooltip title="Home"   >
                         <Link href="">
                             <span className="icons">
                                 <BiHome/>
@@ -32,7 +31,7 @@ export const Footer = () => {
                         </Link>
                     </Tooltip>
                 </Stack>
-            </FooterWrapper>
+            </NavigationWrapper>
         </>
     )
 }
