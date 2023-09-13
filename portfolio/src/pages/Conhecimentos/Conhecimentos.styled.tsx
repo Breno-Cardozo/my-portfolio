@@ -2,14 +2,18 @@ import { styled, Stack } from "@mui/material";
 
 export const ConhecimentosWrapper = styled(Stack)(({ theme }) =>({
     width: '100%',
-    gap: theme.spacing(8),
+    gap: theme.spacing(20),
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems:'center',
 
 
 
     ".text__content":{
         width: '100%',
         color: theme.palette.secondary.dark,
-        maxWidth: 500,
+        maxWidth: 550,
+        gap: theme.spacing(2),
 
 
         h1:{
@@ -25,5 +29,29 @@ export const ConhecimentosWrapper = styled(Stack)(({ theme }) =>({
                 color: theme.palette.secondary.light,
             },
         },
+
+        p: {
+            fontWeight: 500,
+        },
+    },
+
+    ".icons":{
+        flexDirection: 'row',
+        fontSize: 48,
+        gap: theme.spacing(1),
+
+        svg: {
+            
+            "&:hover":{
+            color: theme.palette.primary.light,
+            },
+        }
+        
+    },
+
+    img:{
+        maxWidth: 500,
+        width: '100%',
+        height: 'auto',
     },
 }));
