@@ -7,6 +7,12 @@ export const ConhecimentosWrapper = styled(Stack)(({ theme }) =>({
     justifyContent: 'center',
     alignItems:'center',
 
+    [theme.breakpoints.down("lg")]:{
+        flexDirection:'column-reverse',
+        alignItems: 'center',
+        grid: 'auto / auto auto',        
+    },
+
 
 
     ".text__content":{
@@ -40,12 +46,17 @@ export const ConhecimentosWrapper = styled(Stack)(({ theme }) =>({
         fontSize: 48,
         gap: theme.spacing(1),
 
+        [theme.breakpoints.down("lg")]:{
+            flexDirection: 'column',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+        },
+
         svg: {
-            
             "&:hover":{
             color: theme.palette.primary.light,
             },
-        }
+        },
         
     },
 
