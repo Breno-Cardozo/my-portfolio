@@ -2,7 +2,7 @@ import {Stack, Typography, Tooltip} from "@mui/material";
 import { ConhecimentosWrapper } from "./Conhecimentos.styled";
 import { Container } from "../../components/container";
 import Image from "../../assets/images/image.svg";
-import { BiLogoPython, BiLogoFigma, BiLogoJavascript, BiLogoPhp, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript} from "react-icons/bi";
+import {  BiLogoFigma, BiLogoJavascript, BiLogoPhp, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript} from "react-icons/bi";
 import {SiMui, SiMysql, SiVite} from "react-icons/si";
 
 export const Conhecimentos = () => {
