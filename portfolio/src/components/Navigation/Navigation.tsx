@@ -10,14 +10,14 @@ export const Navigation = () => {
             <NavigationWrapper>
                 <Stack className="navigation__content">
                     <Tooltip title="Home"   >
-                        <Link href="">
+                        <Link href="/">
                             <span className="icons">
                                 <BiHome/>
                             </span>
                         </Link>
                     </Tooltip>
                     <Tooltip title="Conhecimentos">
-                        <Link href="">
+                        <Link href="/conhecimentos">
                             <span className="icons">
                                 <BiCode/>
                             </span>
