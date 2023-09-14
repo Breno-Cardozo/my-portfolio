@@ -10,7 +10,6 @@ export const ConhecimentosWrapper = styled(Stack)(({ theme }) =>({
     [theme.breakpoints.down("lg")]:{
         flexDirection:'column-reverse',
         alignItems: 'center',
-        grid: 'auto / auto auto',        
     },
 
 
