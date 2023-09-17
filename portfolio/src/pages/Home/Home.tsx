@@ -1,4 +1,4 @@
-import {  Stack, Link, Typography, Button } from "@mui/material";
+import { Stack, Link, Typography, Button } from "@mui/material";
 import { Container } from "../../components/container";
 import { HomeWrapper } from "./Home.styled";
 import { BiDownload, BiLogoInstagram, BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
@@ -25,7 +25,7 @@ export const Home = () => {
 					<Typography>
 						Tenho 18 anos, sou um estudante na área da programação que busco me aperfeiçoar dia após dia, atualmente estudo na Etec MCM, estou no último ano do curso Novotec Integrado de Informática para Internet
 					</Typography>
-					
+
 					<Stack className="links">
 						<a href={Curriculo} download="Curriculo.pdf">
 							<Button variant="contained">
@@ -42,13 +42,13 @@ export const Home = () => {
 									<BiLogoInstagram />
 								</span>
 							</Link>
-						
+
 							<Link target="_blank" href="https://www.linkedin.com/in/breno-c-10432021b/">
 								<span className="icon">
 									<BiLogoLinkedin />
 								</span>
 							</Link>
-						
+
 							<Link target="_blank" href="https://github.com/Breno-Cardozo">
 								<span className="icon">
 									<BiLogoGithub />
@@ -57,8 +57,7 @@ export const Home = () => {
 						</Stack>
 					</Stack>
 				</Stack>
-
-				<img src={Img} alt="Foto do Breno Cardozo Fagundes"/>
+				<img src={Img} alt="Foto do Breno Cardozo Fagundes" />
 			</HomeWrapper>
 		</Container>
 	)

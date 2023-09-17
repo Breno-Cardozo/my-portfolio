@@ -24,7 +24,7 @@ export const Navigation = () => {
                         </Link>
                     </Tooltip>
                     <Tooltip title="Projetos">
-                        <Link href="">
+                        <Link href="/projects">
                             <span className="icons">
                                 <BiSolidArchiveIn />
                             </span>
