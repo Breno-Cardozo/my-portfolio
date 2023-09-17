@@ -43,7 +43,7 @@ export const Home = () => {
 								</span>
 							</Link>
 
-							<Link target="_blank" href="https://www.linkedin.com/in/breno-c-10432021b/">
+							<Link target="_blank" href="https://www.linkedin.com/in/brenocardozo/">
 								<span className="icon">
 									<BiLogoLinkedin />
 								</span>
