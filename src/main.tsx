@@ -7,6 +7,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { AllRoutes } from './routes'
 import { Header } from './components/header/Header'
 import { Navigation } from './components/Navigation/Navigation'
+import { Footer } from './components/footer/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Header />
           <AllRoutes />
           <Navigation />
+          <Footer/>
         </BrowserRouter>
     </ThemeProvider>
   </React.StrictMode>,
