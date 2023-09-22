@@ -16,6 +16,7 @@ export const FooterWrapper = styled ('footer')(({theme}) => ({
 
     span:{
         color: theme.palette.primary.light,
+        cursor: 'pointer',
         "&:hover": {
             color: theme.palette.secondary.light,
         },
