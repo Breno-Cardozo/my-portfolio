@@ -77,6 +77,7 @@ export const HomeWrapper = styled(Stack)(({ theme }) => ({
 				color: theme.palette.primary.light,
 				fontSize:22,
 				textDecoration: 'none',
+				
 
 				"&:hover": {
 					color:theme.palette.secondary.light,
@@ -116,6 +117,7 @@ export const HomeWrapper = styled(Stack)(({ theme }) => ({
 		fontWeight: 700,
 		fontSize:26,
 		textDecoration: 'none',
+		cursor: 'pointer',
 
 		"&:hover": {
 			color:theme.palette.secondary.light,

@@ -30,6 +30,7 @@ export const ConhecimentosWrapper = styled(Stack)(({ theme }) => ({
         span: {
             color: theme.palette.primary.light,
             fontSize: 26,
+            cursor: 'pointer',
 
             "&:hover": {
                 color: theme.palette.secondary.light,
@@ -44,6 +45,7 @@ export const ConhecimentosWrapper = styled(Stack)(({ theme }) => ({
     ".icones": {
         flexDirection: 'row',
         gap: theme.spacing(1),
+        cursor: 'pointer',
 
         [theme.breakpoints.down("lg")]: {
             flexDirection: 'column',

@@ -6,6 +6,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+::selection {
+    background-color: rgb(155, 120, 209);
+    color: rgb(21, 8, 38);
+}
+
 body {
     background-color: rgb(21, 8, 38);
 }

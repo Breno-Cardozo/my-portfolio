@@ -25,6 +25,7 @@ export const ProjectsWrapper = styled (Stack)(({theme}) => ({
             span:{
                 color: theme.palette.primary.light,
                 fontSize: 20,
+                cursor: 'pointer',
     
                 "&:hover":{
                     color: theme.palette.secondary.light,
@@ -41,6 +42,7 @@ export const ProjectsWrapper = styled (Stack)(({theme}) => ({
         span:{
             color: theme.palette.primary.light,
             fontSize: 16,
+            cursor: 'pointer',
 
             "&:hover":{
                 color: theme.palette.secondary.light,
