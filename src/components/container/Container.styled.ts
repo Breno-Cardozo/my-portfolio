@@ -11,7 +11,7 @@ export const ContainerWrapper = styled("main")(({theme}) => ({
 
 
     [theme.breakpoints.down("lg")]:{
-        margin: theme.spacing(2,2,10,0),
+        margin: theme.spacing(0,0,10,0),
         padding: theme.spacing(5),
 
     },
