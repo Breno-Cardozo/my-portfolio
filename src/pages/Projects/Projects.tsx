@@ -5,6 +5,7 @@ import TodoList from "../../assets/images/todo.png";
 import TodoListReact from "../../assets/images/todoreact.png";
 import Temp from "../../assets/images/tempo.png";
 import Snake from "../../assets/images/snake.png";
+import Chat from "../../assets/images/chat.jpg";
 import { BiLogoGithub, BiSolidRightTopArrowCircle } from "react-icons/bi";
 
 export const Projects = () => {
@@ -60,7 +61,7 @@ export const Projects = () => {
                                     To do <span>List</span>
                                 </Typography>
                                 <Typography>
-                                    Confira o "To do List" que eu desenvolvi armazenando em um banco de dados <span>MySQL, JavaSript, HTML e CSS</span>.
+                                    Confira o "To do List" que eu desenvolvi utilizando<span>MySQL, JavaSript, HTML e CSS</span>.
                                 </Typography>
                                 <Stack className="icons">
                                     <Link target="_blank" href="https://github.com/Breno-Cardozo/todolist">
@@ -129,6 +130,37 @@ export const Projects = () => {
                                         <BiLogoGithub />
                                     </Link>
                                     <Link target="_blank" href="https://app-react-temp.vercel.app/">
+                                        <BiSolidRightTopArrowCircle />
+                                    </Link>
+                                </Stack>
+                            </CardContent>
+                        </Card>
+                    </Link>
+                    
+                    <Link target="_blank" href="http://appchat.free.nf/">
+                        <Card className="card" sx={{
+                            maxWidth: 250, transition: "transform .3s ease", "&:hover": {
+                                transform: "scale(1.1)",
+                            },
+                        }}>
+                            <CardMedia
+                                component="img"
+                                alt="projeto Chat PHP"
+                                height="150"
+                                image={Chat}
+                            />
+                            <CardContent className="text">
+                                <Typography variant="h3">
+                                    Chat <span>PHP</span>
+                                </Typography>
+                                <Typography>
+                                    Confira o "App Chat" que eu desenvolvi utilizando <span>PHP, JavaScript e MySQL.</span>.
+                                </Typography>
+                                <Stack className="icons">
+                                    <Link target="_blank" href="https://github.com/Breno-Cardozo/App-Chat">
+                                        <BiLogoGithub />
+                                    </Link>
+                                    <Link target="_blank" href="http://appchat.free.nf/">
                                         <BiSolidRightTopArrowCircle />
                                     </Link>
                                 </Stack>
