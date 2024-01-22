@@ -23,7 +23,7 @@ export const Home = () => {
 					</Stack>
 
 					<Typography>
-						Tenho 18 anos, sou um estudante na área da programação que busco me aperfeiçoar dia após dia, atualmente estudo na Etec MCM, estou no último ano do curso Novotec Integrado de Informática para Internet
+						Tenho 18 anos, sou um estudante na área da programação e busco diariamente adquirir novos conhecimentos visando me tornar um profissional mais completo, atualmente estudo na Fundação Santo André, estou no primeiro semestre do curso Ciências da Computação.
 					</Typography>
 
 					<Stack className="links">
